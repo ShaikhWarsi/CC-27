@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Antigravity Phish-Pish",
+    "version": "1.0",
+    "description": "Agent-grade phishing detection and URL analysis.",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:8000/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "popup.css"
+            ]
+        }
+    ],
+    "action": {
+        "default_title": "Fish-Pish"
+    }
+}

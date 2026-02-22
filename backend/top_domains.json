@@ -1,0 +1,78 @@
+[
+    {
+        "domain": "google.com",
+        "brand": "Google"
+    },
+    {
+        "domain": "facebook.com",
+        "brand": "Facebook"
+    },
+    {
+        "domain": "amazon.com",
+        "brand": "Amazon"
+    },
+    {
+        "domain": "apple.com",
+        "brand": "Apple"
+    },
+    {
+        "domain": "microsoft.com",
+        "brand": "Microsoft"
+    },
+    {
+        "domain": "netflix.com",
+        "brand": "Netflix"
+    },
+    {
+        "domain": "twitter.com",
+        "brand": "Twitter"
+    },
+    {
+        "domain": "instagram.com",
+        "brand": "Instagram"
+    },
+    {
+        "domain": "linkedin.com",
+        "brand": "LinkedIn"
+    },
+    {
+        "domain": "youtube.com",
+        "brand": "YouTube"
+    },
+    {
+        "domain": "gmail.com",
+        "brand": "Gmail"
+    },
+    {
+        "domain": "outlook.com",
+        "brand": "Outlook"
+    },
+    {
+        "domain": "paypal.com",
+        "brand": "PayPal"
+    },
+    {
+        "domain": "github.com",
+        "brand": "GitHub"
+    },
+    {
+        "domain": "bit.ly",
+        "brand": "Bitly Shortener"
+    },
+    {
+        "domain": "t.co",
+        "brand": "Twitter Shortener"
+    },
+    {
+        "domain": "wikipedia.org",
+        "brand": "Wikipedia"
+    },
+    {
+        "domain": "reddit.com",
+        "brand": "Reddit"
+    },
+    {
+        "domain": "zoom.us",
+        "brand": "Zoom"
+    }
+]

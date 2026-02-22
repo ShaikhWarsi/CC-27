@@ -1,0 +1,13 @@
+{
+    "name": "fish-pish-extension",
+    "version": "1.0.0",
+    "description": "Premium Phishing Detection with Gamified Awareness",
+    "scripts": {
+        "build": "esbuild src/content.ts --bundle --outfile=content.js --minify",
+        "watch": "esbuild src/content.ts --bundle --outfile=content.js --watch"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.0",
+        "typescript": "^5.3.3"
+    }
+}

@@ -1,0 +1,2110 @@
+[
+    {
+        "b": "Google",
+        "d": "google.com"
+    },
+    {
+        "b": "Facebook",
+        "d": "facebook.com"
+    },
+    {
+        "b": "Amazon",
+        "d": "amazon.com"
+    },
+    {
+        "b": "Apple",
+        "d": "apple.com"
+    },
+    {
+        "b": "Microsoft",
+        "d": "microsoft.com"
+    },
+    {
+        "b": "Netflix",
+        "d": "netflix.com"
+    },
+    {
+        "b": "PayPal",
+        "d": "paypal.com"
+    },
+    {
+        "b": "eBay",
+        "d": "ebay.com"
+    },
+    {
+        "b": "Instagram",
+        "d": "instagram.com"
+    },
+    {
+        "b": "LinkedIn",
+        "d": "linkedin.com"
+    },
+    {
+        "b": "Twitter",
+        "d": "twitter.com"
+    },
+    {
+        "b": "Bank of America",
+        "d": "bankofamerica.com"
+    },
+    {
+        "b": "Chase",
+        "d": "chase.com"
+    },
+    {
+        "b": "Wells Fargo",
+        "d": "wellsfargo.com"
+    },
+    {
+        "b": "Citibank",
+        "d": "citi.com"
+    },
+    {
+        "b": "HSBC",
+        "d": "hsbc.com"
+    },
+    {
+        "b": "Mastercard",
+        "d": "mastercard.com"
+    },
+    {
+        "b": "Visa",
+        "d": "visa.com"
+    },
+    {
+        "b": "American Express",
+        "d": "americanexpress.com"
+    },
+    {
+        "b": "Walmart",
+        "d": "walmart.com"
+    },
+    {
+        "b": "Target",
+        "d": "target.com"
+    },
+    {
+        "b": "Alibaba",
+        "d": "alibaba.com"
+    },
+    {
+        "b": "AliExpress",
+        "d": "aliexpress.com"
+    },
+    {
+        "b": "Shopify",
+        "d": "shopify.com"
+    },
+    {
+        "b": "Etsy",
+        "d": "etsy.com"
+    },
+    {
+        "b": "Slack",
+        "d": "slack.com"
+    },
+    {
+        "b": "Zoom",
+        "d": "zoom.us"
+    },
+    {
+        "b": "Dropbox",
+        "d": "dropbox.com"
+    },
+    {
+        "b": "Salesforce",
+        "d": "salesforce.com"
+    },
+    {
+        "b": "Adobe",
+        "d": "adobe.com"
+    },
+    {
+        "b": "Airbnb",
+        "d": "airbnb.com"
+    },
+    {
+        "b": "Booking.com",
+        "d": "booking.com"
+    },
+    {
+        "b": "Expedia",
+        "d": "expedia.com"
+    },
+    {
+        "b": "Uber",
+        "d": "uber.com"
+    },
+    {
+        "b": "Lyft",
+        "d": "lyft.com"
+    },
+    {
+        "b": "Marriott",
+        "d": "marriott.com"
+    },
+    {
+        "b": "Hilton",
+        "d": "hilton.com"
+    },
+    {
+        "b": "Steam",
+        "d": "steampowered.com"
+    },
+    {
+        "b": "Epic Games",
+        "d": "epicgames.com"
+    },
+    {
+        "b": "Roblox",
+        "d": "roblox.com"
+    },
+    {
+        "b": "Nintendo",
+        "d": "nintendo.com"
+    },
+    {
+        "b": "PlayStation",
+        "d": "playstation.com"
+    },
+    {
+        "b": "Xbox",
+        "d": "xbox.com"
+    },
+    {
+        "b": "DHL",
+        "d": "dhl.com"
+    },
+    {
+        "b": "FedEx",
+        "d": "fedex.com"
+    },
+    {
+        "b": "UPS",
+        "d": "ups.com"
+    },
+    {
+        "b": "USPS",
+        "d": "usps.com"
+    },
+    {
+        "b": "Spotify",
+        "d": "spotify.com"
+    },
+    {
+        "b": "Disney+",
+        "d": "disneyplus.com"
+    },
+    {
+        "b": "YouTube",
+        "d": "youtube.com"
+    },
+    {
+        "b": "WhatsApp",
+        "d": "whatsapp.com"
+    },
+    {
+        "b": "TikTok",
+        "d": "tiktok.com"
+    },
+    {
+        "b": "Snapchat",
+        "d": "snapchat.com"
+    },
+    {
+        "b": "Reddit",
+        "d": "reddit.com"
+    },
+    {
+        "b": "Pinterest",
+        "d": "pinterest.com"
+    },
+    {
+        "b": "Quora",
+        "d": "quora.com"
+    },
+    {
+        "b": "Twitch",
+        "d": "twitch.tv"
+    },
+    {
+        "b": "GitHub",
+        "d": "github.com"
+    },
+    {
+        "b": "GitLab",
+        "d": "gitlab.com"
+    },
+    {
+        "b": "Bitbucket",
+        "d": "bitbucket.org"
+    },
+    {
+        "b": "Canva",
+        "d": "canva.com"
+    },
+    {
+        "b": "Mailchimp",
+        "d": "mailchimp.com"
+    },
+    {
+        "b": "Wix",
+        "d": "wix.com"
+    },
+    {
+        "b": "Squarespace",
+        "d": "squarespace.com"
+    },
+    {
+        "b": "WordPress",
+        "d": "wordpress.com"
+    },
+    {
+        "b": "Coinbase",
+        "d": "coinbase.com"
+    },
+    {
+        "b": "Binance",
+        "d": "binance.com"
+    },
+    {
+        "b": "Kraken",
+        "d": "kraken.com"
+    },
+    {
+        "b": "Robinhood",
+        "d": "robinhood.com"
+    },
+    {
+        "b": "Venmo",
+        "d": "venmo.com"
+    },
+    {
+        "b": "Zelle",
+        "d": "zellepay.com"
+    },
+    {
+        "b": "Cash App",
+        "d": "cash.app"
+    },
+    {
+        "b": "Revolut",
+        "d": "revolut.com"
+    },
+    {
+        "b": "Wise",
+        "d": "wise.com"
+    },
+    {
+        "b": "Intuit",
+        "d": "intuit.com"
+    },
+    {
+        "b": "QuickBooks",
+        "d": "quickbooks.com"
+    },
+    {
+        "b": "TurboTax",
+        "d": "turbotax.com"
+    },
+    {
+        "b": "DocuSign",
+        "d": "docusign.com"
+    },
+    {
+        "b": "Evernote",
+        "d": "evernote.com"
+    },
+    {
+        "b": "Notion",
+        "d": "notion.so"
+    },
+    {
+        "b": "Trello",
+        "d": "trello.com"
+    },
+    {
+        "b": "Asana",
+        "d": "asana.com"
+    },
+    {
+        "b": "Atlassian",
+        "d": "atlassian.com"
+    },
+    {
+        "b": "Oracle",
+        "d": "oracle.com"
+    },
+    {
+        "b": "IBM",
+        "d": "ibm.com"
+    },
+    {
+        "b": "Cisco",
+        "d": "cisco.com"
+    },
+    {
+        "b": "Dell",
+        "d": "dell.com"
+    },
+    {
+        "b": "HP",
+        "d": "hp.com"
+    },
+    {
+        "b": "Samsung",
+        "d": "samsung.com"
+    },
+    {
+        "b": "Sony",
+        "d": "sony.com"
+    },
+    {
+        "b": "LG",
+        "d": "lg.com"
+    },
+    {
+        "b": "Panasonic",
+        "d": "panasonic.com"
+    },
+    {
+        "b": "Intel",
+        "d": "intel.com"
+    },
+    {
+        "b": "Nvidia",
+        "d": "nvidia.com"
+    },
+    {
+        "b": "AMD",
+        "d": "amd.com"
+    },
+    {
+        "b": "Tesla",
+        "d": "tesla.com"
+    },
+    {
+        "b": "Ford",
+        "d": "ford.com"
+    },
+    {
+        "b": "Toyota",
+        "d": "toyota.com"
+    },
+    {
+        "b": "BMW",
+        "d": "bmw.com"
+    },
+    {
+        "b": "Mercedes-Benz",
+        "d": "mercedes-benz.com"
+    },
+    {
+        "b": "AIG",
+        "d": "aig.com"
+    },
+    {
+        "b": "Allianz",
+        "d": "allianz.com"
+    },
+    {
+        "b": "AXA",
+        "d": "axa.com"
+    },
+    {
+        "b": "Barclays",
+        "d": "barclays.com"
+    },
+    {
+        "b": "BNP Paribas",
+        "d": "bnpparibas.com"
+    },
+    {
+        "b": "Capital One",
+        "d": "capitalone.com"
+    },
+    {
+        "b": "Credit Suisse",
+        "d": "credit-suisse.com"
+    },
+    {
+        "b": "Deutsche Bank",
+        "d": "db.com"
+    },
+    {
+        "b": "Goldman Sachs",
+        "d": "goldmansachs.com"
+    },
+    {
+        "b": "J.P. Morgan",
+        "d": "jpmorgan.com"
+    },
+    {
+        "b": "Morgan Stanley",
+        "d": "morganstanley.com"
+    },
+    {
+        "b": "Prudential",
+        "d": "prudential.com"
+    },
+    {
+        "b": "Santander",
+        "d": "santander.com"
+    },
+    {
+        "b": "Standard Chartered",
+        "d": "sc.com"
+    },
+    {
+        "b": "UBS",
+        "d": "ubs.com"
+    },
+    {
+        "b": "MetLife",
+        "d": "metlife.com"
+    },
+    {
+        "b": "State Farm",
+        "d": "statefarm.com"
+    },
+    {
+        "b": "Geico",
+        "d": "geico.com"
+    },
+    {
+        "b": "Progressive",
+        "d": "progressive.com"
+    },
+    {
+        "b": "Liberty Mutual",
+        "d": "libertymutual.com"
+    },
+    {
+        "b": "Costco",
+        "d": "costco.com"
+    },
+    {
+        "b": "Home Depot",
+        "d": "homedepot.com"
+    },
+    {
+        "b": "Lowe's",
+        "d": "lowes.com"
+    },
+    {
+        "b": "Best Buy",
+        "d": "bestbuy.com"
+    },
+    {
+        "b": "CVS",
+        "d": "cvs.com"
+    },
+    {
+        "b": "Walgreens",
+        "d": "walgreens.com"
+    },
+    {
+        "b": "Kroger",
+        "d": "kroger.com"
+    },
+    {
+        "b": "Tesco",
+        "d": "tesco.com"
+    },
+    {
+        "b": "Carrefour",
+        "d": "carrefour.com"
+    },
+    {
+        "b": "Lidl",
+        "d": "lidl.de"
+    },
+    {
+        "b": "Aldi",
+        "d": "aldi.com"
+    },
+    {
+        "b": "IKEA",
+        "d": "ikea.com"
+    },
+    {
+        "b": "H&M",
+        "d": "hm.com"
+    },
+    {
+        "b": "Zara",
+        "d": "zara.com"
+    },
+    {
+        "b": "Nike",
+        "d": "nike.com"
+    },
+    {
+        "b": "Adidas",
+        "d": "adidas.com"
+    },
+    {
+        "b": "Starbucks",
+        "d": "starbucks.com"
+    },
+    {
+        "b": "McDonald's",
+        "d": "mcdonalds.com"
+    },
+    {
+        "b": "Burger King",
+        "d": "bk.com"
+    },
+    {
+        "b": "Subway",
+        "d": "subway.com"
+    },
+    {
+        "b": "KFC",
+        "d": "kfc.com"
+    },
+    {
+        "b": "Pizza Hut",
+        "d": "pizzahut.com"
+    },
+    {
+        "b": "Domino's",
+        "d": "dominos.com"
+    },
+    {
+        "b": "Coca-Cola",
+        "d": "coca-cola.com"
+    },
+    {
+        "b": "Pepsi",
+        "d": "pepsi.com"
+    },
+    {
+        "b": "Nestle",
+        "d": "nestle.com"
+    },
+    {
+        "b": "Unilever",
+        "d": "unilever.com"
+    },
+    {
+        "b": "Procter & Gamble",
+        "d": "pg.com"
+    },
+    {
+        "b": "Johnson & Johnson",
+        "d": "jnj.com"
+    },
+    {
+        "b": "Pfizer",
+        "d": "pfizer.com"
+    },
+    {
+        "b": "Moderna",
+        "d": "modernatx.com"
+    },
+    {
+        "b": "AstraZeneca",
+        "d": "astrazeneca.com"
+    },
+    {
+        "b": "Merck",
+        "d": "merck.com"
+    },
+    {
+        "b": "Novartis",
+        "d": "novartis.com"
+    },
+    {
+        "b": "Sanofi",
+        "d": "sanofi.com"
+    },
+    {
+        "b": "Roche",
+        "d": "roche.com"
+    },
+    {
+        "b": "Bayer",
+        "d": "bayer.com"
+    },
+    {
+        "b": "GlaxoSmithKline",
+        "d": "gsk.com"
+    },
+    {
+        "b": "Boeing",
+        "d": "boeing.com"
+    },
+    {
+        "b": "Airbus",
+        "d": "airbus.com"
+    },
+    {
+        "b": "Lockheed Martin",
+        "d": "lockheedmartin.com"
+    },
+    {
+        "b": "General Electric",
+        "d": "ge.com"
+    },
+    {
+        "b": "Siemens",
+        "d": "siemens.com"
+    },
+    {
+        "b": "Honeywell",
+        "d": "honeywell.com"
+    },
+    {
+        "b": "3M",
+        "d": "3m.com"
+    },
+    {
+        "b": "Caterpillar",
+        "d": "caterpillar.com"
+    },
+    {
+        "b": "John Deere",
+        "d": "deere.com"
+    },
+    {
+        "b": "Chevron",
+        "d": "chevron.com"
+    },
+    {
+        "b": "ExxonMobil",
+        "d": "exxonmobil.com"
+    },
+    {
+        "b": "Shell",
+        "d": "shell.com"
+    },
+    {
+        "b": "BP",
+        "d": "bp.com"
+    },
+    {
+        "b": "TotalEnergies",
+        "d": "totalenergies.com"
+    },
+    {
+        "b": "Verizon",
+        "d": "verizon.com"
+    },
+    {
+        "b": "AT&T",
+        "d": "att.com"
+    },
+    {
+        "b": "T-Mobile",
+        "d": "t-mobile.com"
+    },
+    {
+        "b": "Vodafone",
+        "d": "vodafone.com"
+    },
+    {
+        "b": "Orange",
+        "d": "orange.com"
+    },
+    {
+        "b": "NTT",
+        "d": "ntt.com"
+    },
+    {
+        "b": "China Mobile",
+        "d": "chinamobileltd.com"
+    },
+    {
+        "b": "Comcast",
+        "d": "comcast.com"
+    },
+    {
+        "b": "Charter Communications",
+        "d": "spectrum.com"
+    },
+    {
+        "b": "Rogers",
+        "d": "rogers.com"
+    },
+    {
+        "b": "Bell",
+        "d": "bell.ca"
+    },
+    {
+        "b": "United Airlines",
+        "d": "united.com"
+    },
+    {
+        "b": "Delta Air Lines",
+        "d": "delta.com"
+    },
+    {
+        "b": "American Airlines",
+        "d": "aa.com"
+    },
+    {
+        "b": "Lufthansa",
+        "d": "lufthansa.com"
+    },
+    {
+        "b": "British Airways",
+        "d": "britishairways.com"
+    },
+    {
+        "b": "Air France",
+        "d": "airfrance.com"
+    },
+    {
+        "b": "Emirates",
+        "d": "emirates.com"
+    },
+    {
+        "b": "Qatar Airways",
+        "d": "qatarairways.com"
+    },
+    {
+        "b": "Singapore Airlines",
+        "d": "singaporeair.com"
+    },
+    {
+        "b": "Cathay Pacific",
+        "d": "cathaypacific.com"
+    },
+    {
+        "b": "Southwest Airlines",
+        "d": "southwest.com"
+    },
+    {
+        "b": "Ryanair",
+        "d": "ryanair.com"
+    },
+    {
+        "b": "EasyJet",
+        "d": "easyjet.com"
+    },
+    {
+        "b": "Turkish Airlines",
+        "d": "turkishairlines.com"
+    },
+    {
+        "b": "Air India",
+        "d": "airindia.in"
+    },
+    {
+        "b": "Indigo",
+        "d": "goindigo.in"
+    },
+    {
+        "b": "Vistara",
+        "d": "airvistara.com"
+    },
+    {
+        "b": "JetBlue",
+        "d": "jetblue.com"
+    },
+    {
+        "b": "Alaska Airlines",
+        "d": "alaskaair.com"
+    },
+    {
+        "b": "Spirit Airlines",
+        "d": "spirit.com"
+    },
+    {
+        "b": "Frontier Airlines",
+        "d": "flyfrontier.com"
+    },
+    {
+        "b": "Hertz",
+        "d": "hertz.com"
+    },
+    {
+        "b": "Avis",
+        "d": "avis.com"
+    },
+    {
+        "b": "Enterprise",
+        "d": "enterprise.com"
+    },
+    {
+        "b": "Sixt",
+        "d": "sixt.com"
+    },
+    {
+        "b": "TripAdvisor",
+        "d": "tripadvisor.com"
+    },
+    {
+        "b": "Trivago",
+        "d": "trivago.com"
+    },
+    {
+        "b": "Kayak",
+        "d": "kayak.com"
+    },
+    {
+        "b": "Skyscanner",
+        "d": "skyscanner.net"
+    },
+    {
+        "b": "Agoda",
+        "d": "agoda.com"
+    },
+    {
+        "b": "Hotels.com",
+        "d": "hotels.com"
+    },
+    {
+        "b": "Hostelworld",
+        "d": "hostelworld.com"
+    },
+    {
+        "b": "Vroom",
+        "d": "vroom.com"
+    },
+    {
+        "b": "Carvana",
+        "d": "carvana.com"
+    },
+    {
+        "b": "AutoTrader",
+        "d": "autotrader.com"
+    },
+    {
+        "b": "Cars.com",
+        "d": "cars.com"
+    },
+    {
+        "b": "Kelly Blue Book",
+        "d": "kbb.com"
+    },
+    {
+        "b": "Edmunds",
+        "d": "edmunds.com"
+    },
+    {
+        "b": "Zillow",
+        "d": "zillow.com"
+    },
+    {
+        "b": "Redfin",
+        "d": "redfin.com"
+    },
+    {
+        "b": "Realtor.com",
+        "d": "realtor.com"
+    },
+    {
+        "b": "Trulia",
+        "d": "trulia.com"
+    },
+    {
+        "b": "Apartments.com",
+        "d": "apartments.com"
+    },
+    {
+        "b": "Rightmove",
+        "d": "rightmove.co.uk"
+    },
+    {
+        "b": "Zoopla",
+        "d": "zoopla.co.uk"
+    },
+    {
+        "b": "Zendesk",
+        "d": "zendesk.com"
+    },
+    {
+        "b": "HubSpot",
+        "d": "hubspot.com"
+    },
+    {
+        "b": "Intercom",
+        "d": "intercom.com"
+    },
+    {
+        "b": "Freshworks",
+        "d": "freshworks.com"
+    },
+    {
+        "b": "ServiceNow",
+        "d": "servicenow.com"
+    },
+    {
+        "b": "Workday",
+        "d": "workday.com"
+    },
+    {
+        "b": "Splunk",
+        "d": "splunk.com"
+    },
+    {
+        "b": "Palantir",
+        "d": "palantir.com"
+    },
+    {
+        "b": "Snowflake",
+        "d": "snowflake.com"
+    },
+    {
+        "b": "Datadog",
+        "d": "datadoghq.com"
+    },
+    {
+        "b": "New Relic",
+        "d": "newrelic.com"
+    },
+    {
+        "b": "PagerDuty",
+        "d": "pagerduty.com"
+    },
+    {
+        "b": "LogMeIn",
+        "d": "logmein.com"
+    },
+    {
+        "b": "TeamViewer",
+        "d": "teamviewer.com"
+    },
+    {
+        "b": "AnyDesk",
+        "d": "anydesk.com"
+    },
+    {
+        "b": "GoToMeeting",
+        "d": "gotomeeting.com"
+    },
+    {
+        "b": "Skype",
+        "d": "skype.com"
+    },
+    {
+        "b": "Viber",
+        "d": "viber.com"
+    },
+    {
+        "b": "Line",
+        "d": "line.me"
+    },
+    {
+        "b": "Telegram",
+        "d": "telegram.org"
+    },
+    {
+        "b": "Signal",
+        "d": "signal.org"
+    },
+    {
+        "b": "Discord",
+        "d": "discord.com"
+    },
+    {
+        "b": "Medium",
+        "d": "medium.com"
+    },
+    {
+        "b": "Substack",
+        "d": "substack.com"
+    },
+    {
+        "b": "Patreon",
+        "d": "patreon.com"
+    },
+    {
+        "b": "OnlyFans",
+        "d": "onlyfans.com"
+    },
+    {
+        "b": "Twitch",
+        "d": "twitch.tv"
+    },
+    {
+        "b": "DailyMotion",
+        "d": "dailymotion.com"
+    },
+    {
+        "b": "Vimeo",
+        "d": "vimeo.com"
+    },
+    {
+        "b": "SoundCloud",
+        "d": "soundcloud.com"
+    },
+    {
+        "b": "Pandora",
+        "d": "pandora.com"
+    },
+    {
+        "b": "Deezer",
+        "d": "deezer.com"
+    },
+    {
+        "b": "Tidal",
+        "d": "tidal.com"
+    },
+    {
+        "b": "Audible",
+        "d": "audible.com"
+    },
+    {
+        "b": "Kindle",
+        "d": "amazon.com"
+    },
+    {
+        "b": "Goodreads",
+        "d": "goodreads.com"
+    },
+    {
+        "b": "Wattpad",
+        "d": "wattpad.com"
+    },
+    {
+        "b": "Scribd",
+        "d": "scribd.com"
+    },
+    {
+        "b": "SlideShare",
+        "d": "slideshare.net"
+    },
+    {
+        "b": "Prezi",
+        "d": "prezi.com"
+    },
+    {
+        "b": "Coursera",
+        "d": "coursera.org"
+    },
+    {
+        "b": "Udemy",
+        "d": "udemy.com"
+    },
+    {
+        "b": "edX",
+        "d": "edx.org"
+    },
+    {
+        "b": "Khan Academy",
+        "d": "khanacademy.org"
+    },
+    {
+        "b": "Duolingo",
+        "d": "duolingo.com"
+    },
+    {
+        "b": "Babbel",
+        "d": "babbel.com"
+    },
+    {
+        "b": "Rosetta Stone",
+        "d": "rosettastone.com"
+    },
+    {
+        "b": "Grammarly",
+        "d": "grammarly.com"
+    },
+    {
+        "b": "Quizlet",
+        "d": "quizlet.com"
+    },
+    {
+        "b": "Chegg",
+        "d": "chegg.com"
+    },
+    {
+        "b": "Course Hero",
+        "d": "coursehero.com"
+    },
+    {
+        "b": "Stack Overflow",
+        "d": "stackoverflow.com"
+    },
+    {
+        "b": "HackerRank",
+        "d": "hackerrank.com"
+    },
+    {
+        "b": "LeetCode",
+        "d": "leetcode.com"
+    },
+    {
+        "b": "Codewars",
+        "d": "codewars.com"
+    },
+    {
+        "b": "FreeCodeCamp",
+        "d": "freecodecamp.org"
+    },
+    {
+        "b": "W3Schools",
+        "d": "w3schools.com"
+    },
+    {
+        "b": "MDN Web Docs",
+        "d": "developer.mozilla.org"
+    },
+    {
+        "b": "Webflow",
+        "d": "webflow.com"
+    },
+    {
+        "b": "Bubble",
+        "d": "bubble.io"
+    },
+    {
+        "b": "Figma",
+        "d": "figma.com"
+    },
+    {
+        "b": "InVision",
+        "d": "invisionapp.com"
+    },
+    {
+        "b": "Marvel App",
+        "d": "marvelapp.com"
+    },
+    {
+        "b": "Zeplin",
+        "d": "zeplin.io"
+    },
+    {
+        "b": "Abstract",
+        "d": "goabstract.com"
+    },
+    {
+        "b": "Dribbble",
+        "d": "dribbble.com"
+    },
+    {
+        "b": "Behance",
+        "d": "behance.net"
+    },
+    {
+        "b": "Unsplash",
+        "d": "unsplash.com"
+    },
+    {
+        "b": "Pexels",
+        "d": "pexels.com"
+    },
+    {
+        "b": "Pixabay",
+        "d": "pixabay.com"
+    },
+    {
+        "b": "Shutterstock",
+        "d": "shutterstock.com"
+    },
+    {
+        "b": "Getty Images",
+        "d": "gettyimages.com"
+    },
+    {
+        "b": "Adobe Stock",
+        "d": "stock.adobe.com"
+    },
+    {
+        "b": "Canva",
+        "d": "canva.com"
+    },
+    {
+        "b": "PicMonkey",
+        "d": "picmonkey.com"
+    },
+    {
+        "b": "Vistaprint",
+        "d": "vistaprint.com"
+    },
+    {
+        "b": "Moo",
+        "d": "moo.com"
+    },
+    {
+        "b": "Fiverr",
+        "d": "fiverr.com"
+    },
+    {
+        "b": "Upwork",
+        "d": "upwork.com"
+    },
+    {
+        "b": "Freelancer",
+        "d": "freelancer.com"
+    },
+    {
+        "b": "Toptal",
+        "d": "toptal.com"
+    },
+    {
+        "b": "Guru",
+        "d": "guru.com"
+    },
+    {
+        "b": "PeoplePerHour",
+        "d": "peopleperhour.com"
+    },
+    {
+        "b": "99designs",
+        "d": "99designs.com"
+    },
+    {
+        "b": "TaskRabbit",
+        "d": "taskrabbit.com"
+    },
+    {
+        "b": "Instacart",
+        "d": "instacart.com"
+    },
+    {
+        "b": "DoorDash",
+        "d": "doordash.com"
+    },
+    {
+        "b": "Grubhub",
+        "d": "grubhub.com"
+    },
+    {
+        "b": "Postmates",
+        "d": "postmates.com"
+    },
+    {
+        "b": "Uber Eats",
+        "d": "ubereats.com"
+    },
+    {
+        "b": "Deliveroo",
+        "d": "deliveroo.co.uk"
+    },
+    {
+        "b": "Just Eat",
+        "d": "just-eat.co.uk"
+    },
+    {
+        "b": "Zomato",
+        "d": "zomato.com"
+    },
+    {
+        "b": "Swiggy",
+        "d": "swiggy.com"
+    },
+    {
+        "b": "Yelp",
+        "d": "yelp.com"
+    },
+    {
+        "b": "OpenTable",
+        "d": "opentable.com"
+    },
+    {
+        "b": "Resy",
+        "d": "resy.com"
+    },
+    {
+        "b": "Groupon",
+        "d": "groupon.com"
+    },
+    {
+        "b": "LivingSocial",
+        "d": "livingsocial.com"
+    },
+    {
+        "b": "Rakuten",
+        "d": "rakuten.com"
+    },
+    {
+        "b": "Honey",
+        "d": "joinhoney.com"
+    },
+    {
+        "b": "RetailMeNot",
+        "d": "retailmenot.com"
+    },
+    {
+        "b": "Coupons.com",
+        "d": "coupons.com"
+    },
+    {
+        "b": "Ibotta",
+        "d": "ibotta.com"
+    },
+    {
+        "b": "Ebates",
+        "d": "ebates.com"
+    },
+    {
+        "b": "Afterpay",
+        "d": "afterpay.com"
+    },
+    {
+        "b": "Affirm",
+        "d": "affirm.com"
+    },
+    {
+        "b": "Klarna",
+        "d": "klarna.com"
+    },
+    {
+        "b": "Quadpay",
+        "d": "quadpay.com"
+    },
+    {
+        "b": "Sezzle",
+        "d": "sezzle.com"
+    },
+    {
+        "b": "TransferWise",
+        "d": "wise.com"
+    },
+    {
+        "b": "WorldRemit",
+        "d": "worldremit.com"
+    },
+    {
+        "b": "Remitly",
+        "d": "remitly.com"
+    },
+    {
+        "b": "Xoom",
+        "d": "xoom.com"
+    },
+    {
+        "b": "Western Union",
+        "d": "westernunion.com"
+    },
+    {
+        "b": "MoneyGram",
+        "d": "moneygram.com"
+    },
+    {
+        "b": "Stripe",
+        "d": "stripe.com"
+    },
+    {
+        "b": "Square",
+        "d": "squareup.com"
+    },
+    {
+        "b": "Adyen",
+        "d": "adyen.com"
+    },
+    {
+        "b": "Checkout.com",
+        "d": "checkout.com"
+    },
+    {
+        "b": "Paddle",
+        "d": "paddle.com"
+    },
+    {
+        "b": "Gumroad",
+        "d": "gumroad.com"
+    },
+    {
+        "b": "FastSpring",
+        "d": "fastspring.com"
+    },
+    {
+        "b": "Payoneer",
+        "d": "payoneer.com"
+    },
+    {
+        "b": "Skrill",
+        "d": "skrill.com"
+    },
+    {
+        "b": "Neteller",
+        "d": "neteller.com"
+    },
+    {
+        "b": "Perfect Money",
+        "d": "perfectmoney.is"
+    },
+    {
+        "b": "WebMoney",
+        "d": "wmtransfer.com"
+    },
+    {
+        "b": "Payza",
+        "d": "payza.com"
+    },
+    {
+        "b": "Paytm",
+        "d": "paytm.com"
+    },
+    {
+        "b": "PhonePe",
+        "d": "phonepe.com"
+    },
+    {
+        "b": "Google Pay",
+        "d": "pay.google.com"
+    },
+    {
+        "b": "Apple Pay",
+        "d": "apple.com"
+    },
+    {
+        "b": "Samsung Pay",
+        "d": "samsung.com"
+    },
+    {
+        "b": "AliPay",
+        "d": "alipay.com"
+    },
+    {
+        "b": "WeChat Pay",
+        "d": "pay.weixin.qq.com"
+    },
+    {
+        "b": "Trustly",
+        "d": "trustly.net"
+    },
+    {
+        "b": "Sofort",
+        "d": "sofort.com"
+    },
+    {
+        "b": "Giropay",
+        "d": "giropay.de"
+    },
+    {
+        "b": "iDEAL",
+        "d": "ideal.nl"
+    },
+    {
+        "b": "Bancontact",
+        "d": "bancontact.com"
+    },
+    {
+        "b": "EPS",
+        "d": "eps-ueberweisung.at"
+    },
+    {
+        "b": "P24",
+        "d": "przelewy24.pl"
+    },
+    {
+        "b": "Boleto",
+        "d": "boletobancario.com"
+    },
+    {
+        "b": "OXXO",
+        "d": "oxxo.com"
+    },
+    {
+        "b": "Mercado Pago",
+        "d": "mercadopago.com"
+    },
+    {
+        "b": "PagSeguro",
+        "d": "pagseguro.uol.com.br"
+    },
+    {
+        "b": "Ebanx",
+        "d": "ebanx.com"
+    },
+    {
+        "b": "DLocal",
+        "d": "dlocal.com"
+    },
+    {
+        "b": "BitPay",
+        "d": "bitpay.com"
+    },
+    {
+        "b": "Blockchain.com",
+        "d": "blockchain.com"
+    },
+    {
+        "b": "LocalBitcoins",
+        "d": "localbitcoins.com"
+    },
+    {
+        "b": "Paxful",
+        "d": "paxful.com"
+    },
+    {
+        "b": "Luno",
+        "d": "luno.com"
+    },
+    {
+        "b": "Bitstamp",
+        "d": "bitstamp.net"
+    },
+    {
+        "b": "Gemini",
+        "d": "gemini.com"
+    },
+    {
+        "b": "Crypto.com",
+        "d": "crypto.com"
+    },
+    {
+        "b": "Etoro",
+        "d": "etoro.com"
+    },
+    {
+        "b": "Plus500",
+        "d": "plus500.com"
+    },
+    {
+        "b": "IG Group",
+        "d": "ig.com"
+    },
+    {
+        "b": "CMC Markets",
+        "d": "cmcmarkets.com"
+    },
+    {
+        "b": "Saxo Bank",
+        "d": "saxobank.com"
+    },
+    {
+        "b": "Interactive Brokers",
+        "d": "interactivebrokers.com"
+    },
+    {
+        "b": "Charles Schwab",
+        "d": "schwab.com"
+    },
+    {
+        "b": "Fidelity",
+        "d": "fidelity.com"
+    },
+    {
+        "b": "E*TRADE",
+        "d": "etrade.com"
+    },
+    {
+        "b": "TD Ameritrade",
+        "d": "tdameritrade.com"
+    },
+    {
+        "b": "Vanguard",
+        "d": "vanguard.com"
+    },
+    {
+        "b": "BlackRock",
+        "d": "blackrock.com"
+    },
+    {
+        "b": "State Street",
+        "d": "statestreet.com"
+    },
+    {
+        "b": "BNY Mellon",
+        "d": "bnymellon.com"
+    },
+    {
+        "b": "Northern Trust",
+        "d": "northerntrust.com"
+    },
+    {
+        "b": "Visa",
+        "d": "visa.com"
+    },
+    {
+        "b": "Mastercard",
+        "d": "mastercard.com"
+    },
+    {
+        "b": "Discover",
+        "d": "discover.com"
+    },
+    {
+        "b": "American Express",
+        "d": "americanexpress.com"
+    },
+    {
+        "b": "Diners Club",
+        "d": "dinersclub.com"
+    },
+    {
+        "b": "JCB",
+        "d": "jcb.co.jp"
+    },
+    {
+        "b": "UnionPay",
+        "d": "unionpayintl.com"
+    },
+    {
+        "b": "Elo",
+        "d": "elo.com.br"
+    },
+    {
+        "b": "Verve",
+        "d": "vervepay.com"
+    },
+    {
+        "b": "Rupay",
+        "d": "rupay.co.in"
+    },
+    {
+        "b": "Fiserv",
+        "d": "fiserv.com"
+    },
+    {
+        "b": "FIS",
+        "d": "fisglobal.com"
+    },
+    {
+        "b": "Global Payments",
+        "d": "globalpaymentsinc.com"
+    },
+    {
+        "b": "Worldline",
+        "d": "worldline.com"
+    },
+    {
+        "b": "Nexi",
+        "d": "nexi.it"
+    },
+    {
+        "b": "Equifax",
+        "d": "equifax.com"
+    },
+    {
+        "b": "Experian",
+        "d": "experian.com"
+    },
+    {
+        "b": "TransUnion",
+        "d": "transunion.com"
+    },
+    {
+        "b": "FICO",
+        "d": "fico.com"
+    },
+    {
+        "b": "Dun & Bradstreet",
+        "d": "dnb.com"
+    },
+    {
+        "b": "Bloomberg",
+        "d": "bloomberg.com"
+    },
+    {
+        "b": "Reuters",
+        "d": "reuters.com"
+    },
+    {
+        "b": "Dow Jones",
+        "d": "dowjones.com"
+    },
+    {
+        "b": "Financial Times",
+        "d": "ft.com"
+    },
+    {
+        "b": "The Wall Street Journal",
+        "d": "wsj.com"
+    },
+    {
+        "b": "The New York Times",
+        "d": "nytimes.com"
+    },
+    {
+        "b": "The Washington Post",
+        "d": "washingtonpost.com"
+    },
+    {
+        "b": "BBC",
+        "d": "bbc.com"
+    },
+    {
+        "b": "CNN",
+        "d": "cnn.com"
+    },
+    {
+        "b": "Al Jazeera",
+        "d": "aljazeera.com"
+    },
+    {
+        "b": "Forbes",
+        "d": "forbes.com"
+    },
+    {
+        "b": "Fortune",
+        "d": "fortune.com"
+    },
+    {
+        "b": "Business Insider",
+        "d": "businessinsider.com"
+    },
+    {
+        "b": "TechCrunch",
+        "d": "techcrunch.com"
+    },
+    {
+        "b": "The Verge",
+        "d": "theverge.com"
+    },
+    {
+        "b": "Wired",
+        "d": "wired.com"
+    },
+    {
+        "b": "Engadget",
+        "d": "engadget.com"
+    },
+    {
+        "b": "Gizmodo",
+        "d": "gizmodo.com"
+    },
+    {
+        "b": "CNET",
+        "d": "cnet.com"
+    },
+    {
+        "b": "Digital Trends",
+        "d": "digitaltrends.com"
+    },
+    {
+        "b": "Mashable",
+        "d": "mashable.com"
+    },
+    {
+        "b": "Vice",
+        "d": "vice.com"
+    },
+    {
+        "b": "BuzzFeed",
+        "d": "buzzfeed.com"
+    },
+    {
+        "b": "Reddit",
+        "d": "reddit.com"
+    },
+    {
+        "b": "Quora",
+        "d": "quora.com"
+    },
+    {
+        "b": "Wikipedia",
+        "d": "wikipedia.org"
+    },
+    {
+        "b": "Britannica",
+        "d": "britannica.com"
+    },
+    {
+        "b": "IMDb",
+        "d": "imdb.com"
+    },
+    {
+        "b": "Rotten Tomatoes",
+        "d": "rottentomatoes.com"
+    },
+    {
+        "b": "Metacritic",
+        "d": "metacritic.com"
+    },
+    {
+        "b": "IGN",
+        "d": "ign.com"
+    },
+    {
+        "b": "GameSpot",
+        "d": "gamespot.com"
+    },
+    {
+        "b": "Kotaku",
+        "d": "kotaku.com"
+    },
+    {
+        "b": "Polygon",
+        "d": "polygon.com"
+    },
+    {
+        "b": "Eurogamer",
+        "d": "eurogamer.net"
+    },
+    {
+        "b": "Rock Paper Shotgun",
+        "d": "rockpapershotgun.com"
+    },
+    {
+        "b": "PC Gamer",
+        "d": "pcgamer.com"
+    },
+    {
+        "b": "GameInformer",
+        "d": "gameinformer.com"
+    },
+    {
+        "b": "Destructoid",
+        "d": "destructoid.com"
+    },
+    {
+        "b": "Giant Bomb",
+        "d": "giantbomb.com"
+    },
+    {
+        "b": "Pocket-lint",
+        "d": "pocket-lint.com"
+    },
+    {
+        "b": "Tom's Guide",
+        "d": "tomsguide.com"
+    },
+    {
+        "b": "TechRadar",
+        "d": "techradar.com"
+    },
+    {
+        "b": "Expert Reviews",
+        "d": "expertreviews.co.uk"
+    },
+    {
+        "b": "Trusted Reviews",
+        "d": "trustedreviews.com"
+    },
+    {
+        "b": "Which?",
+        "d": "which.co.uk"
+    },
+    {
+        "b": "Consumer Reports",
+        "d": "consumerreports.org"
+    },
+    {
+        "b": "Wirecutter",
+        "d": "nytimes.com"
+    },
+    {
+        "b": "Reviewed",
+        "d": "reviewed.com"
+    },
+    {
+        "b": "Tattoo",
+        "d": "tattoo.com"
+    },
+    {
+        "b": "Healthline",
+        "d": "healthline.com"
+    },
+    {
+        "b": "WebMD",
+        "d": "webmd.com"
+    },
+    {
+        "b": "Mayo Clinic",
+        "d": "mayoclinic.org"
+    },
+    {
+        "b": "Cleveland Clinic",
+        "d": "clevelandclinic.org"
+    },
+    {
+        "b": "National Institutes of Health",
+        "d": "nih.gov"
+    },
+    {
+        "b": "Centers for Disease Control and Prevention",
+        "d": "cdc.gov"
+    },
+    {
+        "b": "World Health Organization",
+        "d": "who.int"
+    },
+    {
+        "b": "Harvard Health",
+        "d": "health.harvard.edu"
+    },
+    {
+        "b": "Medical News Today",
+        "d": "medicalnewstoday.com"
+    },
+    {
+        "b": "Everyday Health",
+        "d": "everydayhealth.com"
+    },
+    {
+        "b": "Psychology Today",
+        "d": "psychologytoday.com"
+    },
+    {
+        "b": "Verywell Mind",
+        "d": "verywellmind.com"
+    },
+    {
+        "b": "MindBodyGreen",
+        "d": "mindbodygreen.com"
+    },
+    {
+        "b": "Self",
+        "d": "self.com"
+    },
+    {
+        "b": "Women's Health",
+        "d": "womenshealthmag.com"
+    },
+    {
+        "b": "Men's Health",
+        "d": "menshealth.com"
+    },
+    {
+        "b": "Good Housekeeping",
+        "d": "goodhousekeeping.com"
+    },
+    {
+        "b": "Martha Stewart",
+        "d": "marthastewart.com"
+    },
+    {
+        "b": "Better Homes & Gardens",
+        "d": "bhg.com"
+    },
+    {
+        "b": "Real Simple",
+        "d": "realsimple.com"
+    },
+    {
+        "b": "AllRecipes",
+        "d": "allrecipes.com"
+    },
+    {
+        "b": "Food Network",
+        "d": "foodnetwork.com"
+    },
+    {
+        "b": "Epicurious",
+        "d": "epicurious.com"
+    },
+    {
+        "b": "Bon Appetit",
+        "d": "bonappetit.com"
+    },
+    {
+        "b": "Serious Eats",
+        "d": "seriouseats.com"
+    },
+    {
+        "b": "The Spruce Eats",
+        "d": "thespruceeats.com"
+    },
+    {
+        "b": "Cook's Illustrated",
+        "d": "cooksillustrated.com"
+    },
+    {
+        "b": "Food & Wine",
+        "d": "foodandwine.com"
+    },
+    {
+        "b": "Taste of Home",
+        "d": "tasteofhome.com"
+    },
+    {
+        "b": "Kitchn",
+        "d": "thekitchn.com"
+    },
+    {
+        "b": "Tasty",
+        "d": "tasty.co"
+    },
+    {
+        "b": "Blue Apron",
+        "d": "blueapron.com"
+    },
+    {
+        "b": "HelloFresh",
+        "d": "hellofresh.com"
+    },
+    {
+        "b": "Sunbasket",
+        "d": "sunbasket.com"
+    },
+    {
+        "b": "Home Chef",
+        "d": "homechef.com"
+    },
+    {
+        "b": "Factor75",
+        "d": "factor75.com"
+    },
+    {
+        "b": "Freshly",
+        "d": "freshly.com"
+    },
+    {
+        "b": "EveryPlate",
+        "d": "everyplate.com"
+    },
+    {
+        "b": "Dinnerly",
+        "d": "dinnerly.com"
+    },
+    {
+        "b": "Marley Spoon",
+        "d": "marleyspoon.com"
+    },
+    {
+        "b": "Hungryroot",
+        "d": "hungryroot.com"
+    },
+    {
+        "b": "Misfits Market",
+        "d": "misfitsmarket.com"
+    },
+    {
+        "b": "Thrive Market",
+        "d": "thrivemarket.com"
+    },
+    {
+        "b": "Boxed",
+        "d": "boxed.com"
+    },
+    {
+        "b": "Peapod",
+        "d": "peapod.com"
+    },
+    {
+        "b": "FreshDirect",
+        "d": "freshdirect.com"
+    },
+    {
+        "b": "Shipt",
+        "d": "shipt.com"
+    },
+    {
+        "b": "Gopuff",
+        "d": "gopuff.com"
+    },
+    {
+        "b": "Getir",
+        "d": "getir.com"
+    },
+    {
+        "b": "Gorillas",
+        "d": "gorillas.io"
+    },
+    {
+        "b": "Flink",
+        "d": "flink.com"
+    },
+    {
+        "b": "Zapp",
+        "d": "zapp.com"
+    },
+    {
+        "b": "JOKR",
+        "d": "jokr.it"
+    },
+    {
+        "b": "Buyk",
+        "d": "buyk.com"
+    },
+    {
+        "b": "Fridge No More",
+        "d": "fridgenomore.com"
+    },
+    {
+        "b": "1520",
+        "d": "1520.io"
+    },
+    {
+        "b": "DashMart",
+        "d": "doordash.com"
+    }
+]
