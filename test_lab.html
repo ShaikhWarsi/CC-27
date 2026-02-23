@@ -41,9 +41,77 @@
             border-radius: 8px;
             margin-bottom: 30px;
         }
+        
+        /* Sentinel Popup Styles */
+        #sentinel-popup {
+            position: absolute;
+            background: #0f172a; /* Dark Navy */
+            color: #e2e8f0;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 15px;
+            width: 350px;
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            z-index: 1000;
+            display: none;
+            pointer-events: none; /* Let clicks pass through */
+        }
+        #sentinel-popup h4 {
+            margin: 0 0 10px 0;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #sentinel-score {
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .score-safe { background: #10b981; color: white; }
+        .score-sus { background: #f59e0b; color: black; }
+        .score-danger { background: #ef4444; color: white; }
+        
+        .reason-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .reason-item {
+            margin-bottom: 5px;
+            padding-left: 15px;
+            position: relative;
+        }
+        .reason-item::before {
+            content: "⚠️";
+            position: absolute;
+            left: -5px;
+            font-size: 0.8em;
+        }
+        .reason-item.safe::before { content: "✅"; }
+        
+        .loading-pulse {
+            animation: pulse 1.5s infinite;
+            text-align: center;
+            color: #94a3b8;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
     </style>
 </head>
 <body>
+    <!-- Sentinel Popup Container -->
+    <div id="sentinel-popup">
+        <h4>Sentinel Analysis <span id="sentinel-score">...</span></h4>
+        <div id="sentinel-content"></div>
+    </div>
+
     <div class="container">
         <h1>🎣 Fish-Pish Phishing Lab</h1>
         <p class="instructions">
@@ -84,6 +152,133 @@
             <a href="https://package-tracking.zip">Track your UPS Delivery</a>
             <p><small>Expectation: <strong>DANGER</strong> (.zip TLD risk)</small></p>
         </div>
+
+        <div class="test-case safe-case" style="border: 2px dashed #3498db; background: #f0f8ff;">
+            <h3>🛡️ Feature Demo: Safe Sandbox Preview</h3>
+            <p>Test the backend's ability to safely fetch a site without executing its code.</p>
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="text" id="sandbox-url" placeholder="Enter URL (e.g. https://example.com)" style="flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                <button onclick="testSandbox()" style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer;">Safe Preview</button>
+            </div>
+            <div id="sandbox-result" style="margin-top: 10px; border: 1px solid #ddd; padding: 10px; background: white; min-height: 100px; display: none;">
+                <p><strong>Status:</strong> <span id="sb-status"></span></p>
+                <img id="sb-image" src="" style="max-width: 100%; border: 1px solid #ccc; margin-top: 10px;">
+                <pre id="sb-headers" style="background: #eee; padding: 10px; font-size: 0.8em; overflow-x: auto;"></pre>
+            </div>
+        </div>
     </div>
+
+    <script>
+        // Interactive Hover Logic for Demo
+        const popup = document.getElementById('sentinel-popup');
+        const contentDiv = document.getElementById('sentinel-content');
+        const scoreSpan = document.getElementById('sentinel-score');
+        let hoverTimeout;
+
+        document.querySelectorAll('.test-case a').forEach(link => {
+            link.addEventListener('mouseenter', async (e) => {
+                const url = link.href;
+                const text = link.innerText;
+                
+                // Show Popup immediately at mouse position
+                popup.style.display = 'block';
+                popup.style.left = e.pageX + 15 + 'px';
+                popup.style.top = e.pageY + 15 + 'px';
+                
+                // Set Loading State
+                scoreSpan.innerText = 'Scanning...';
+                scoreSpan.className = ''; // Reset class
+                contentDiv.innerHTML = '<div class="loading-pulse">Analyzing Link Targets...<br>[AI Neural Net Active]</div>';
+                
+                // Fetch Analysis
+                try {
+                    const response = await fetch('http://localhost:8000/analyze', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ 
+                            url: url,
+                            anchor_text: text
+                        })
+                    });
+                    const data = await response.json();
+                    
+                    // Update UI
+                    updatePopup(data);
+                } catch (err) {
+                    contentDiv.innerHTML = `<div style="color:red">Backend Error: Is server running on port 8000?</div>`;
+                }
+            });
+
+            link.addEventListener('mouseleave', () => {
+                popup.style.display = 'none';
+            });
+            
+            link.addEventListener('mousemove', (e) => {
+                popup.style.left = e.pageX + 15 + 'px';
+                popup.style.top = e.pageY + 15 + 'px';
+            });
+        });
+
+        function updatePopup(data) {
+            const score = data.overall_score;
+            const status = data.status;
+            
+            // Set Score Badge
+            scoreSpan.innerText = `Risk: ${score}/100`;
+            scoreSpan.className = score > 70 ? 'score-danger' : (score > 40 ? 'score-sus' : 'score-safe');
+            
+            // Build Reasons List
+            let html = '<ul class="reason-list">';
+            if (data.details.ai_results && data.details.ai_results.reasons) {
+                data.details.ai_results.reasons.forEach(r => {
+                    html += `<li class="reason-item">${r.detail}</li>`;
+                });
+            } else if (score === 0) {
+                 html += `<li class="reason-item safe" style="color:#10b981">No threats detected. Domain is trusted.</li>`;
+            }
+            html += '</ul>';
+            
+            if (data.details.explanation) {
+                html += `<div style="margin-top:10px; font-size:0.85em; color:#94a3b8; border-top:1px solid #334155; padding-top:5px;">AI Analyst: "${data.details.explanation}"</div>`;
+            }
+            
+            contentDiv.innerHTML = html;
+        }
+
+        async function testSandbox() {
+            const url = document.getElementById('sandbox-url').value;
+            const resultDiv = document.getElementById('sandbox-result');
+            const statusSpan = document.getElementById('sb-status');
+            const img = document.getElementById('sb-image');
+            const headersPre = document.getElementById('sb-headers');
+
+            if (!url) { alert("Please enter a URL"); return; }
+
+            resultDiv.style.display = 'block';
+            statusSpan.innerText = "Scanning...";
+            img.style.display = 'none';
+            headersPre.innerText = "";
+
+            try {
+                const response = await fetch('http://localhost:8000/sandbox', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ url: url })
+                });
+                const data = await response.json();
+                
+                statusSpan.innerText = data.status === 'success' ? `✅ Safe Preview Generated (HTTP ${data.code})` : `❌ Error: ${data.message}`;
+                
+                if (data.status === 'success') {
+                    img.src = data.preview_url;
+                    img.style.display = 'block';
+                    headersPre.innerText = "Headers Captured:\n" + JSON.stringify(data.headers, null, 2);
+                }
+            } catch (e) {
+                statusSpan.innerText = "❌ Connection Error (Is backend running?)";
+                console.error(e);
+            }
+        }
+    </script>
 </body>
 </html>
