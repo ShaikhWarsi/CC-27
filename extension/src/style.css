@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar for the sidebar */
+.sentinel-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.sentinel-scrollbar::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+.sentinel-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+.sentinel-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

@@ -24,9 +24,26 @@ except Exception as e:
 
 async def check_whitelist(url: str) -> bool:
     """Check if the domain is in the top 1k/trusted domains list."""
-    ext = tldextract.extract(url)
-    domain = f"{ext.domain}.{ext.suffix}"
-    return domain in _TOP_DOMAINS_CACHE
+    try:
+        # Use no_fetch=True to prevent file locking issues during extraction
+        # We manually construct a TLDExtract object that doesn't try to fetch
+        no_fetch_extract = tldextract.TLDExtract(suffix_list_urls=())
+        ext = no_fetch_extract(url)
+        domain = f"{ext.domain}.{ext.suffix}"
+        return domain in _TOP_DOMAINS_CACHE
+    except Exception as e:
+        logger.error(f"TLD Extract error: {e}")
+        # Fallback for localhost or simple extraction if tldextract fails
+        try:
+            from urllib.parse import urlparse
+            netloc = urlparse(url).netloc
+            parts = netloc.split('.')
+            if len(parts) >= 2:
+                domain = f"{parts[-2]}.{parts[-1]}"
+                return domain in _TOP_DOMAINS_CACHE
+        except:
+            pass
+        return False
 
 import asyncio
 
@@ -77,7 +94,7 @@ async def check_urlhaus(url: str, session: aiohttp.ClientSession) -> bool:
     endpoint = "https://urlhaus-api.abuse.ch/v1/url/"
     payload = {"url": url}
     try:
-        async with session.post(endpoint, data=payload, timeout=3) as response:
+        async with session.post(endpoint, data=payload, timeout=3, ssl=False) as response:
             if response.status == 200:
                 data = await response.json()
                 return data.get("query_status") == "ok" and data.get("url_status") == "online"
@@ -90,7 +107,7 @@ async def check_openphish(url: str, session: aiohttp.ClientSession) -> bool:
     global _OPENPHISH_CACHE
     if not _OPENPHISH_CACHE:
         try:
-            async with session.get("https://openphish.com/feed.txt", timeout=5) as response:
+            async with session.get("https://openphish.com/feed.txt", timeout=5, ssl=False) as response:
                 if response.status == 200:
                     content = await response.text()
                     _OPENPHISH_CACHE = set(content.splitlines())

@@ -3,11 +3,21 @@
     "version": "1.0.0",
     "description": "Premium Phishing Detection with Gamified Awareness",
     "scripts": {
-        "build": "esbuild src/content.ts --bundle --outfile=content.js --minify",
-        "watch": "esbuild src/content.ts --bundle --outfile=content.js --watch"
+        "build": "npx tailwindcss -i ./src/style.css -o ./content.css && esbuild src/content.tsx --bundle --outfile=content.js --minify --loader:.tsx=tsx --jsx=automatic && esbuild src/background.ts --bundle --outfile=background.js --minify",
+        "watch": "esbuild src/content.tsx --bundle --outfile=content.js --watch & esbuild src/background.ts --bundle --outfile=background.js --watch"
     },
     "devDependencies": {
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "autoprefixer": "^10.4.19",
         "esbuild": "^0.20.0",
+        "postcss": "^8.4.38",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwindcss": "^3.4.3",
         "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "lucide-react": "^0.575.0"
     }
 }
