@@ -3,14 +3,14 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-    Shield, 
-    ShieldAlert, 
-    Activity, 
-    Terminal, 
-    Lock, 
-    Cpu, 
-    AlertTriangle, 
+import {
+    Shield,
+    ShieldAlert,
+    Activity,
+    Terminal,
+    Lock,
+    Cpu,
+    AlertTriangle,
     CheckCircle,
     Zap,
     Globe,
@@ -59,10 +59,10 @@ export default function LinkDetective() {
     useEffect(() => {
         const interval = setInterval(() => {
             const actions = [
-                "Scanning DOM...", 
-                "Verifying SSL Certificate...", 
-                "Checking Brand Reputation...", 
-                "Analyzing Favicon Hash...", 
+                "Scanning DOM...",
+                "Verifying SSL Certificate...",
+                "Checking Brand Reputation...",
+                "Analyzing Favicon Hash...",
                 "Detecting Homoglyphs...",
                 "Running Heuristic Analysis..."
             ];
@@ -80,7 +80,7 @@ export default function LinkDetective() {
         setResult(null);
 
         try {
-            const res = await fetch('http://localhost:8000/analyze', {
+            const res = await fetch('https://rachit-tw-fish-pish.hf.space/analyze', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -103,10 +103,10 @@ export default function LinkDetective() {
     return (
         <div className="min-h-screen bg-slate-950 text-slate-200 font-mono p-4 md:p-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
-                
+
                 {/* LEFT COLUMN: CONTROL PANEL */}
                 <div className="lg:col-span-2 space-y-8">
-                    
+
                     {/* Header */}
                     <div className="flex items-center space-x-4 border-b border-slate-800 pb-6">
                         <div className="p-3 bg-blue-900/20 rounded-lg border border-blue-500/30">
@@ -136,8 +136,8 @@ export default function LinkDetective() {
                         </div>
                         <div className="p-6 grid md:grid-cols-3 gap-4">
                             {SCENARIOS.map((scenario) => (
-                                <a 
-                                    key={scenario.id} 
+                                <a
+                                    key={scenario.id}
                                     href={scenario.path}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -172,7 +172,7 @@ export default function LinkDetective() {
                                 <div className="space-y-1">
                                     <label className="text-xs text-slate-400 uppercase tracking-wider">Target URL</label>
                                     <div className="relative">
-                                        <input 
+                                        <input
                                             value={url}
                                             onChange={(e) => setUrl(e.target.value)}
                                             className="w-full bg-slate-950 border border-slate-700 rounded p-3 pl-10 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none font-mono"
@@ -183,7 +183,7 @@ export default function LinkDetective() {
                                 </div>
                                 <div className="space-y-1">
                                     <label className="text-xs text-slate-400 uppercase tracking-wider">Anchor Text</label>
-                                    <input 
+                                    <input
                                         value={anchorText}
                                         onChange={(e) => setAnchorText(e.target.value)}
                                         className="w-full bg-slate-950 border border-slate-700 rounded p-3 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none font-mono"
@@ -193,14 +193,14 @@ export default function LinkDetective() {
                             </div>
                             <div className="space-y-1">
                                 <label className="text-xs text-slate-400 uppercase tracking-wider">Contextual Payload</label>
-                                <textarea 
+                                <textarea
                                     value={context}
                                     onChange={(e) => setContext(e.target.value)}
                                     className="w-full bg-slate-950 border border-slate-700 rounded p-3 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none font-mono h-20 resize-none"
                                     placeholder="Paste email body or surrounding text..."
                                 />
                             </div>
-                            <button 
+                            <button
                                 onClick={handleAnalyze}
                                 disabled={loading}
                                 className={`w-full py-3 rounded font-bold uppercase tracking-widest text-sm transition-all
@@ -216,7 +216,7 @@ export default function LinkDetective() {
 
                 {/* RIGHT COLUMN: STATUS & LOGS */}
                 <div className="space-y-8">
-                    
+
                     {/* SYSTEM VITALS */}
                     <div className="grid grid-cols-2 gap-4">
                         <div className="bg-slate-900/50 border border-slate-800 p-4 rounded-xl">
@@ -256,33 +256,31 @@ export default function LinkDetective() {
                     {/* ANALYSIS RESULT */}
                     <AnimatePresence>
                         {result && (
-                            <motion.div 
+                            <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0 }}
-                                className={`rounded-xl border p-6 ${
-                                    result.status === 'SAFE' ? 'bg-green-900/20 border-green-500/50' :
-                                    result.status === 'SUSPICIOUS' ? 'bg-yellow-900/20 border-yellow-500/50' :
-                                    'bg-red-900/20 border-red-500/50'
-                                }`}
+                                className={`rounded-xl border p-6 ${result.status === 'SAFE' ? 'bg-green-900/20 border-green-500/50' :
+                                        result.status === 'SUSPICIOUS' ? 'bg-yellow-900/20 border-yellow-500/50' :
+                                            'bg-red-900/20 border-red-500/50'
+                                    }`}
                             >
                                 <div className="flex items-center gap-3 mb-4">
                                     {result.status === 'SAFE' ? <CheckCircle className="w-8 h-8 text-green-500" /> :
-                                     result.status === 'SUSPICIOUS' ? <AlertTriangle className="w-8 h-8 text-yellow-500" /> :
-                                     <ShieldAlert className="w-8 h-8 text-red-500" />}
+                                        result.status === 'SUSPICIOUS' ? <AlertTriangle className="w-8 h-8 text-yellow-500" /> :
+                                            <ShieldAlert className="w-8 h-8 text-red-500" />}
                                     <div>
                                         <div className="text-sm text-slate-400 uppercase font-bold">VERDICT</div>
-                                        <div className={`text-xl font-bold ${
-                                            result.status === 'SAFE' ? 'text-green-400' :
-                                            result.status === 'SUSPICIOUS' ? 'text-yellow-400' :
-                                            'text-red-400'
-                                        }`}>{result.status}</div>
+                                        <div className={`text-xl font-bold ${result.status === 'SAFE' ? 'text-green-400' :
+                                                result.status === 'SUSPICIOUS' ? 'text-yellow-400' :
+                                                    'text-red-400'
+                                            }`}>{result.status}</div>
                                     </div>
                                     <div className="ml-auto text-2xl font-bold text-slate-500">
                                         {result.overall_score}/100
                                     </div>
                                 </div>
-                                
+
                                 <div className="space-y-2 mb-4">
                                     {result.details?.ai_results?.reasons?.map((reason: any, idx: number) => (
                                         <div key={idx} className="flex items-start gap-2 text-sm text-slate-300 bg-slate-900/50 p-2 rounded">
@@ -296,7 +294,7 @@ export default function LinkDetective() {
                                         <p className="text-sm text-slate-400">{result.details.explanation}</p>
                                     )}
                                 </div>
-                                
+
                                 {result.details?.ai_results?.llm_explanation && (
                                     <div className="mt-4 pt-4 border-t border-slate-700/50">
                                         <div className="flex items-center gap-2 mb-2">
